@@ -1,0 +1,35 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 64px);
+  @media (min-width: 700px) {
+    height: 512px;
+  }
+  margin: 0 auto;
+  background-image: url("../img/photo.jpg");
+  background-size: cover;
+  &__overlay {
+    background-color: rgba($neutrals900, 0.75);
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: hard-light;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__header {
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto 48px;
+    padding: 0 20px;
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color: $neutrals050;
+    }
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: $neutrals200;
+      text-transform: uppercase;
+    }
+  }
+}

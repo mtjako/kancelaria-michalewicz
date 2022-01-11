@@ -1,0 +1,25 @@
+.feature {
+  display: flex;
+  &__icon {
+    width: 48px;
+    height: 48px;
+    background-color: $neutrals700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    border-radius: 8px;
+  }
+  &__text {
+    width: calc(100% - 64px);
+    &__title {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: $neutrals800;
+    }
+    &__description {
+      font-size: 16px;
+      color: $neutrals600;
+    }
+  }
+}
