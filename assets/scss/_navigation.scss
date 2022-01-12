@@ -21,6 +21,10 @@
       font-size: 20px;
       color: $neutrals050;
       font-weight: bold;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
     }
     &__btn {
       width: 64px;

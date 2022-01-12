@@ -1,6 +1,8 @@
 <div class="blog-tile">
     <a href="<?php the_permalink()?>">
-    <img src="<?php the_post_thumbnail_url('thumbnail')?>" alt="" class="blog-tile__img">
+    <div class="blog-tile__img">
+        <img src="<?php the_post_thumbnail_url('thumbnail')?>" alt="" >
+    </div>
     </a>
     <div class="blog-tile__text">
         <a href="<?php the_permalink()?>">

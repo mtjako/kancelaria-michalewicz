@@ -10,7 +10,7 @@
 <body>
 <nav class="navigation">
     <div class="navigation__wrap">
-        <div class="navigation__wrap__logo">Agata Michalewicz</div>
+        <div class="navigation__wrap__logo"><a href="/">Agata Michalewicz</a></div>
         <?php wp_nav_menu( array(
             'menu'=>'primary',
             'container_class'=>'navigation__wrap__menu',

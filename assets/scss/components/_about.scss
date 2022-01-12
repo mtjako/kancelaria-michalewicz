@@ -1,6 +1,13 @@
 .about {
   width: 100%;
   background-color: $neutrals200;
+  &::before {
+    content: "";
+    display: block;
+    height: 64px;
+    margin-top: -64px;
+    visibility: hidden;
+  }
   &__wrap {
     width: 100%;
     max-width: 1184px;
