@@ -31,5 +31,29 @@
       color: $neutrals200;
       text-transform: uppercase;
     }
+    &__meta {
+      display: flex;
+      align-items: center;
+      p {
+        color: $neutrals200;
+        font-weight: bold;
+        font-size: 24px;
+      }
+    }
+    &__tags {
+    }
+    &__tag {
+      background-color: $neutrals800;
+      color: $neutrals100;
+      font-weight: bold;
+      padding: 4px 16px;
+      border-radius: 8px;
+      margin-left: 8px;
+      font-size: 16px;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
   }
 }
