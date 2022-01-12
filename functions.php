@@ -7,6 +7,13 @@ function kancelaria_register_styles_and_scripts(){
 }
 add_action('wp_enqueue_scripts','kancelaria_register_styles_and_scripts');
 
+//supports
+function kancelaria_theme_support(){
+    add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme','kancelaria_theme_support');
+
 //menu
 function kancelaria_menus(){
     $locations = array(

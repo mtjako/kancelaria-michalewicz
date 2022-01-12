@@ -4,7 +4,7 @@
             <img src="<?php echo get_template_directory_uri().'/assets/img/profile.jpg'?>" alt="Agata Michalewicz">
         </div>
         <div class="about__text">
-            <h3 class="about__text__title">Agata Michalewicz</h3>
+            <h3 class="about__text__title" id="about">Agata Michalewicz</h3>
             <p class="about__text__subtitle">Adwokat</p>
             <p class="about__text__description">
             Jestem adwokatem wpisanym na listę Okręgowej Rady Adwokackiej we Wrocławiu, a od 2016 roku jestem jej członkiem. Dodatkowo, posiadam uprawnienia mediatora.

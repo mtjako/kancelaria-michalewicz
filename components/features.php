@@ -1,5 +1,5 @@
 <div class="features">
-    <h3 class="features__header">Zakres usług</h3>
+    <h3 class="features__header" id="features">Zakres usług</h3>
     <p class="features__description">Kancelaria świadczy usługi w postaci porad prawnych, reprezentacji przed sądami, organami ścigania, urzędami i innymi instytucjami na każdym etapie postępowania. Zapewnia również reprezentację w postępowaniach sądowych. Kancelaria działa na terenie całego kraju i  współpracuje m.in. z notariuszami.</p>
     <div class="features__wrap">
         <?php get_template_part('components/feature','',array(

@@ -1,7 +1,7 @@
 <div class="contact">
     <div class="contact__wrap">
         <div class="contact__text">
-            <h3 class="contact__text__title">Kontakt</h3>
+            <h3 class="contact__text__title" id="contact">Kontakt</h3>
             <p class="contact__text__description">W celu umówienia się na poradę prawną lub uzyskania szczegółów dotyczących prowadzenia sprawy należy skontaktować się mailowo bądź telefonicznie celem omówienia szczegółów lub uzyskania pomocy prawnej. </p>
             <div class="contact__text__info">
                 <img src="<?php echo get_template_directory_uri().'/assets/icons/phone.svg' ?>" alt="phone"><p>+48 605 077 013</p>

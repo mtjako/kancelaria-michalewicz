@@ -38,6 +38,7 @@
   }
   &__text {
     order: -1;
+    padding: 0 20px;
     @media (min-width: 700px) {
       order: 0;
     }
