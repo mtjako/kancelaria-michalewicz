@@ -6,7 +6,7 @@
     height: 512px;
   }
   margin: 0 auto;
-  background-image: url("../img/photo.jpg");
+  background-color: $neutrals200;
   background-size: cover;
   &__overlay {
     background-color: rgba($neutrals900, 0.75);
@@ -43,13 +43,19 @@
     &__meta {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
       p {
         color: $neutrals200;
         font-weight: bold;
         font-size: 16px;
       }
     }
+    &__tags {
+      display: flex;
+      flex-wrap: wrap;
+    }
     &__tag {
+      display: block;
       background-color: $neutrals800;
       color: $neutrals100;
       font-weight: bold;
