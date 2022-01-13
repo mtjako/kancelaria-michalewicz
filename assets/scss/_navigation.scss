@@ -63,7 +63,9 @@
           list-style-type: none;
           margin-left: 32px;
           @media (max-width: 650px) {
-            margin-left: 20px;
+            margin-left: 0;
+            padding: 10px 0 10px 20px;
+            border-top: 1px solid $neutrals700;
           }
           a {
             font-size: 16px;
@@ -71,6 +73,7 @@
             text-decoration: none;
             display: block;
             @media (max-width: 650px) {
+              font-size: 20px;
               padding: 12px 0;
             }
           }
